@@ -30,18 +30,16 @@ int main() {
 	bmp = CreateDIBSection(dc, &bmpi, DIB_RGB_COLORS, (void**)&rgbquad, NULL, 0);
 	SelectObject(dcCopy, bmp);
 
-	//Set our blur
+	//SET OUT BLUR
 	blur.BlendOp = AC_SRC_OVER;
 	blur.BlendFlags = 0;
 	blur.AlphaFormat = 0;
 	blur.SourceConstantAlpha = 20;
 
-	//Counter variable
 	INT i = 0;
 
 	while (1)
 	{
-		//Random position at the memory
 		StretchBlt(dcCopy, rand() % 1, rand() % 1, ws, hs, dc, rand() % -1, rand() % -1, w, h, SRCCOPY);
 
 		for (int x = 0; x < ws; x++)
@@ -63,4 +61,5 @@ int main() {
 	}
 
 	return 0x00;
+
 }
