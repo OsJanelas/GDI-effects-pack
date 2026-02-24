@@ -1,5 +1,5 @@
 # GDI-effects-pack
-46 GDI effects for GDI malwares
+53 GDI effects for GDI malwares
 
 # CREDITS
 Some effects taked from Lixo.exe and Purgatorium https://github.com/ArTicZera https://github.com/ArTicZera/GDI-Worm.Win32.Purgatorium
