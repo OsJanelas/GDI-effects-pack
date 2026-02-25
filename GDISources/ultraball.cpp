@@ -1,3 +1,5 @@
+//THIS CODE IS A SPHERE SIMILAR WITH SOLARIS SPHERE
+
 #include <windows.h>
 #include <cmath>
 #include <vector>
@@ -95,4 +97,5 @@ int main() {
         Sleep(10);
     }
     return 0;
+
 }
