@@ -1,3 +1,5 @@
+//THIS CODE IS TO MAKE A 3D CUBE SIMILAR WITH DDT+ CUBE
+
 #include <windows.h>
 #include <cmath>
 #include <vector>
@@ -105,4 +107,5 @@ int main() {
         Sleep(16); // 60 FPS
     }
     return 0;
+
 }
