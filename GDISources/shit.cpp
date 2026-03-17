@@ -1,5 +1,7 @@
 #include <windows.h>
 
+
+// THIS IS A INVERT COLORS EFFECT
 int main(void)
 {
 	HDC hdc = GetDC(0);
