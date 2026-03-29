@@ -1,3 +1,5 @@
+// ORIGINAL MADE BY ArTicZera
+
 #include <iostream>
 #include <windows.h>
 
